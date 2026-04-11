@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: vikramyenuga/datastore:v2.0
+          image: vikramyenuga/datastore:v3.0
   replicas: 3
   selector:
     matchLabels:
